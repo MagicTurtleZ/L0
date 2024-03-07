@@ -1,0 +1,9 @@
+env: "local"
+storage_url: "postgres://woonbeaj:123@localhost:5432/L0?sslmode=disable"
+http_serer:
+  address: "localhost:8080"
+  timeout: 5s
+  idle-timeout: 60s
+nuts_settings:
+  cluster_id: "test-cluster"
+  client_id: "woonbeaj"
